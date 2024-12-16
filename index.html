@@ -267,16 +267,16 @@
 }
 
 #modalContent {
-    background: linear-gradient(135deg, #e0f7fa, #b3e5fc); 
+    background: linear-gradient(135deg, #e0f7fa, #b3e5fc); /* Light blue gradient */
     margin: 10% auto;
     padding: 30px;
-    border: 2px solid #0288d1;
-    border-radius: 15px; 
+    border: 2px solid #0288d1; /* Blue border */
+    border-radius: 15px; /* Rounded corners */
     width: 90%;
-    max-width: 500px; 
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+    max-width: 90%; /* Responsive width */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Soft shadow */
     text-align: left;
-    animation: fadeIn 0.5s ease; 
+    animation: fadeIn 0.5s ease; /* Animation for appearance */
 }
 
 .close {
@@ -358,10 +358,10 @@ button:active {
 
    
    
-        <div id="modalContent">
-            <span class="close" id="closeModal">&times;</span>
-            <h2>Effectif mini bus</h2>
-            <form id="dataForm1">
+        
+           
+            
+            <form id="dataForm">
                 <label for="combobox">Equipe:</label>
                 <select id="combobox" name="equipe" class="form-control" required>
                 </select><br>
@@ -379,7 +379,7 @@ button:active {
                     Confirmer
                   </button>
               </form>
-        </div>
+      
     
     
     <script>
